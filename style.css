@@ -1,0 +1,155 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+/* Base reset and font */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #f5f7fa;
+    color: #1c1e21;
+    line-height: 1.6;
+    font-size: 16px;
+    padding: 20px;
+}
+
+h1, h2, h3, h4, h5 {
+    color: #1a1a1a;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+a {
+    color: #2f80ed;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #1a73e8;
+    text-decoration: underline;
+}
+
+/* Container sections */
+section, .container {
+    padding: 40px 20px;
+    margin-bottom: 50px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+/* Cards */
+.card {
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 12px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+}
+
+.card-title {
+    color: #333333;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.card-text {
+    color: #555555;
+}
+
+/* Buttons */
+.btn {
+    border-radius: 8px;
+    padding: 10px 20px;
+    background-color: #2f80ed;
+    color: #fff;
+    border: none;
+    font-weight: 500;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn:hover {
+    background-color: #1a73e8;
+    transform: translateY(-2px);
+}
+
+/* Navbar */
+.navbar {
+    background-color: #ffffff;
+    border-bottom: 1px solid #e0e0e0;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.04);
+}
+
+.nav-link {
+    color: #333 !important;
+    font-weight: 500;
+}
+
+.nav-link:hover {
+    color: #2f80ed !important;
+}
+
+/* Image */
+img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+/* Lists */
+ul {
+    padding-left: 20px;
+    list-style-type: disc;
+    color: #444;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    font-size: 0.9rem;
+    color: #777;
+    border-top: 1px solid #e0e0e0;
+    margin-top: 50px;
+}
+
+/* Media queries */
+@media screen and (max-width: 768px) {
+    section, .container {
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 1.8rem;
+    }
+}
+
+h2 {
+    margin-bottom: 30px;
+    color: #3498db;
+}
+ul {
+    padding-left: 20px;
+}
+a {
+    color: #3498db;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+.card {
+    margin-bottom: 20px;
+}

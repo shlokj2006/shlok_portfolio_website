@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shlok Jaiswal Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"> Shlok Jaiswal </a>
+                <button aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"
+                    class="navbar-toggler" data-bs-target="#navbarSupportedContent" data-bs-toggle="collapse"
+                    type="button">
+                    <span class="navbar-toggler-icon"> </span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a aria-current="page" class="nav-link active" href="#" onclick="scrollTo('hero')">
+                                Home
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" onclick="scrollTo('projects')">
+                                Projects
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" onclick="scrollTo('websites')">
+                                Websites
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" onclick="scrollTo('portfolios')">
+                                Portfolios
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" onclick="scrollTo('profiles')">
+                                Profiles
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" onclick="scrollTo('experience')">
+                                Experience
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" onclick="scrollTo('skills')">
+                                Skills
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" onclick="scrollTo('about')">
+                                About
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" onclick="scrollTo('education')">
+                                Education
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" onclick="scrollTo('certificates')">
+                                Certificates
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" onclick="scrollTo('contact')">
+                                Contact
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="hero" id="hero">
+            <h1>Welcome to My Portfolio</h1>
+            <p>I'm a tech enthusiast with a passion for coding and innovation.</p>
+           
+        </div>
+
+       
+
+  <!-- Projects -->
+  <div class="projects" id="projects">
+    <h2>Projects</h2>
+    <div class="owl-carousel owl-theme">
+      <!-- Project 1 -->
+      <div class="item">
+        <div class="card" data-bs-toggle="modal" data-bs-target="#project1Modal">
+          <img src= C:\Users\dell\Downloads\shlok_portfolio_website\assets\images\Screenshot (21).png class="card-img-top" alt="Chatbot">
+          <div class="card-body">
+            <h5 class="card-title">JavaScript Chat Bot</h5>
+            <p class="card-text">
+              Interactive chatbot using HTML, CSS, and JavaScript.
+              <a href="https://shlokjarvis.netlify.app" target="_blank">View Project</a>
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- Project 2 -->
+      <div class="item">
+        <div class="card" data-bs-toggle="modal" data-bs-target="#project2Modal">
+          <img src="https://source.unsplash.com/300x200/?restaurant" class="card-img-top" alt="Restaurant">
+          <div class="card-body">
+            <h5 class="card-title">Restaurant Website</h5>
+            <p class="card-text">
+              Multi-page responsive site using HTML, CSS, Bootstrap.
+              <a href="https://github.com/shlokj2006/Restaurant-website" target="_blank">View Code</a>
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- Project 3 -->
+      <div class="item">
+        <div class="card" data-bs-toggle="modal" data-bs-target="#project3Modal">
+          <img src="https://source.unsplash.com/300x200/?hospital" class="card-img-top" alt="Hospital">
+          <div class="card-body">
+            <h5 class="card-title">Hospital Management System</h5>
+            <p class="card-text">Built in React.js with room status toggling, emergency routing, and map UI.</p>
+          </div>
+        </div>
+      </div>
+      <!-- Project 4 -->
+      <div class="item">
+        <div class="card" data-bs-toggle="modal" data-bs-target="#linkedinAutomation">
+          <div class="card-body">
+            <h5 class="card-title">LinkedIn Post Automation</h5>
+            <p class="card-text">
+              Automates LinkedIn posts using n8n & OpenAI for SEO-optimized content on trending topics.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modals -->
+  <div class="modal fade" id="project1Modal" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">JavaScript Chat Bot</h5>
+          <button class="btn-close" data-bs-dismiss="modal"></button>
+        </div>
+        <div class="modal-body">
+          Developed an interactive chatbot using HTML, CSS, JS with fun responses, games & deployed on Netlify.
+        </div>
+        <div class="modal-footer">
+          <button class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="project2Modal" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Restaurant Website</h5>
+          <button class="btn-close" data-bs-dismiss="modal"></button>
+        </div>
+        <div class="modal-body">
+          Built with HTML/CSS/Bootstrap. Features include menu, gallery, and contact form.
+        </div>
+        <div class="modal-footer">
+          <button class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="project3Modal" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Hospital Management System</h5>
+          <button class="btn-close" data-bs-dismiss="modal"></button>
+        </div>
+        <div class="modal-body">
+          React.js-based project with live room tracking, accessibility features and emergency map navigation.
+        </div>
+        <div class="modal-footer">
+          <button class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="linkedinAutomation" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">LinkedIn Post Automation</h5>
+          <button class="btn-close" data-bs-dismiss="modal"></button>
+        </div>
+        <div class="modal-body">
+          This workflow uses n8n and ChatGPT APIs to generate and post SEO-optimized LinkedIn content.
+        </div>
+        <div class="modal-footer">
+          <button class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+  <script>
+    function scrollTo(id) {
+      document.querySelector(`#${id}`).scrollIntoView({ behavior: "smooth" });
+    }
+
+    window.addEventListener("scroll", function () {
+      const nav = document.querySelector("nav");
+      if (window.scrollY > 100) {
+        nav.classList.add("fixed-top");
+      } else {
+        nav.classList.remove("fixed-top");
+      }
+    });
+
+    $(document).ready(function () {
+      $(".owl-carousel").owlCarousel({
+        loop: true,
+        margin: 20,
+        nav: true,
+        responsive: {
+          0: { items: 1 },
+          600: { items: 2 },
+          1000: { items: 3 }
+        }
+      });
+    });
+  </script>
+
+
+        <div class="websites" id="websites">
+            <h2>Websites</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img alt="Website 1" class="card-img-top" src="https://source.unsplash.com/300x200/?website1" />
+                        <div class="card-body">
+                            <h5 class="card-title">Website 1</h5>
+                            <p class="card-text">This is a description of website 1.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img alt="Website 2" class="card-img-top" src="https://source.unsplash.com/300x200/?website2" />
+                        <div class="card-body">
+                            <h5 class="card-title">Website 2</h5>
+                            <p class="card-text">This is a description of website 2.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img alt="Website 3" class="card-img-top" src="https://source.unsplash.com/300x200/?website3" />
+                        <div class="card-body">
+                            <h5 class="card-title">Website 3</h5>
+                            <p class="card-text">This is a description of website 3.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="portfolios" id="portfolios">
+            <h2>Portfolios</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img alt="Portfolio 1" class="card-img-top"
+                            src="https://source.unsplash.com/300x200/?portfolio1" />
+                        <div class="card-body">
+                            <h5 class="card-title">Portfolio 1</h5>
+                            <p class="card-text">This is a description of portfolio 1.</p>
+                        </div>
+                    </div>
+                </div>
+               
+            </div>
+        </div>
+        <div class="profiles" id="profiles">
+            <h2>Profiles</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <h5>LinkedIn</h5>
+                    <p>
+                        <a class="btn btn-outline-primary" href="https://www.linkedin.com/in/shlok-jaiswal-a0b151309"
+                            target="_blank">
+                            View LinkedIn
+                        </a>
+                    </p>
+                </div>
+                <div class="col-md-6">
+                    <h5>GitHub</h5>
+                    <p>
+                        <a class="btn btn-outline-dark" href="https://github.com/shlokj2006" target="_blank">
+                            View GitHub
+                        </a>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="experience" id="experience">
+            <h2>Experience</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <h5>Ai Automation Intern</h5>
+                    <p></p>
+                    <p>
+                       Automating Social medias, Posts , Tasks and Data for Clients and Bussiness.
+                    </p>
+                </div>
+                
+        </div>
+        <div class="skills" id="skills">
+            <h2>Skills</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <ul>
+                        <li>
+                            <strong> Frontend: </strong>
+                            HTML5, CSS3, JavaScript, React.js, Bootstrap, Figma
+                        </li>
+                        <li>
+                            <strong> UI/UX Design: </strong>
+                            Web Design, Prototyping, Wireframing
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <ul>
+                        <li>
+                            <strong> Languages: </strong>
+                            C, JavaScript
+                        </li>
+                        <li>
+                            <strong> Backend &amp; Fullstack: </strong>
+                            Fullstack Fundamentals, Netlify
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <ul>
+                        <li>
+                            <strong> Emerging Skills: </strong>
+                            Prompt Engineering, SEO Fundamentals
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <ul>
+                        <li>
+                            <strong>Ai Automation </strong>
+                            n8n, Api Management
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="about" id="about">
+            <h2>About Me</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <img alt="Shlok Jaiswal" class="img-fluid" src="https://source.unsplash.com/300x300/?developer" />
+                </div>
+                <div class="col-md-8">
+                    <p>
+                        I'm Shlok Jaiswal, an enthusiastic and adaptable computer
+                        engineering student with strong problem-solving abilities, a
+                        passion for learning new technologies, and effective communication
+                        skills. I’m eager to contribute to real-world challenges and
+                        collaborate on innovative projects with a proactive mindset.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="education" id="education">
+            <h2>Education</h2>
+            <div class="row">
+                <div class="col-md-12">
+                    <h5>B.Tech in Computer Science</h5>
+                    <p>ITM Vocational University, Near Baroda Raval, Gujarat</p>
+                    <p>2024-28</p>
+                </div>
+            </div>
+        </div>
+        <div class="certificates" id="certificates">
+            <h2>Certificates</h2>
+            <ul>
+                <li>Fullstack Development – Great Learning</li>
+                <li>Data Science Foundation – Great Learning</li>
+                <li>SEO Fundamentals – Great Learning</li>
+                <li>Figma Software – Udemy</li>
+                <li>JavaScript – Udemy</li>
+                <li>Basics of Machine Learning – Great Learning</li>
+                <li>Fundamentals of AI and ML – Great Learning</li>
+                <a
+                    href="https://drive.google.com/drive/folders/1R28GtSnrRJRIQ-Z4erOARQhrdtavvcT0?usp=drive_link">Link</a>
+            </ul>
+        </div>
+        <div class="contact" id="contact">
+            <h2>Get in Touch</h2>
+            <form>
+                <div class="mb-3">
+                    <label class="form-label" for="name"> Name: </label>
+                    <input class="form-control" id="name" name="name" required="" type="text" />
+                </div>
+                <div class="mb-3">
+                    <label class="form-label" for="email"> Email: </label>
+                    <input class="form-control" id="email" name="email" required="" type="email" />
+                </div>
+                <div class="mb-3">
+                    <label class="form-label" for="message"> Message: </label>
+                    <textarea class="form-control" id="message" name="message" required="" rows="3"></textarea>
+                </div>
+                <button class="btn btn-primary" type="submit">Send</button>
+            </form>
+            <div class="social-media">
+                <a class="btn btn-link" href="#https://github.com/shlokj2006">
+                    <i class="bi bi-github" style="font-size: 24px"> </i>
+                </a>
+                <a class="btn btn-link" href="https://www.linkedin.com/in/shlok-jaiswal-a0b151309">
+                    <i class="bi bi-linkedin" style="font-size: 24px"> </i>
+                </a>
+            </div>
+        </div>
+        <div aria-hidden="true" aria-labelledby="project1ModalLabel" class="modal fade" id="project1Modal"
+            tabindex="-1">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="project1ModalLabel"></h5>JavaScript Chat bot</h5>
+                        <button aria-label="Close" class="btn-close" data-bs-dismiss="modal" type="button"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Developed an interactive chatbot using HTML, CSS, and JavaScript to simulate real-time
+                            conversations.Includes mini games and much more.
+                            Deployed using Netify.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button class="btn btn-secondary" data-bs-dismiss="modal" type="button">
+                            Close
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div aria-hidden="true" aria-labelledby="project2ModalLabel" class="modal fade" id="project2Modal"
+            tabindex="-1">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="project2ModalLabel">Project 2</h5>
+                        <button aria-label="Close" class="btn-close" data-bs-dismiss="modal" type="button"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>This is a description of project 2.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button class="btn btn-secondary" data-bs-dismiss="modal" type="button">
+                            Close
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div aria-hidden="true" aria-labelledby="project3ModalLabel" class="modal fade" id="project3Modal"
+            tabindex="-1">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="project3ModalLabel">Project 3</h5>
+                        <button aria-label="Close" class="btn-close" data-bs-dismiss="modal" type="button"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>This is a description of project 3.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button class="btn btn-secondary" data-bs-dismiss="modal" type="button">
+                            Close
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+        <script>
+            function scrollTo(id) {
+                document
+                    .querySelector(`#${id}`)
+                    .scrollIntoView({ behavior: "smooth" });
+            }
+            window.addEventListener("scroll", function () {
+                var scrollPosition = window.scrollY;
+                if (scrollPosition > 100) {
+                    document.querySelector("nav").classList.add("fixed-top");
+                } else {
+                    document.querySelector("nav").classList.remove("fixed-top");
+                }
+            });
+            $(document).ready(function () {
+                $(".owl-carousel").owlCarousel({
+                    loop: true,
+                    margin: 20,
+                    nav: true,
+                    responsive: {
+                        0: {
+                            items: 1,
+                        },
+                        600: {
+                            items: 2,
+                        },
+                        1000: {
+                            items: 3,
+                        },
+                    },
+                });
+            });
+        </script>
+    </body>
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script>
+        function scrollTo(id) {
+            document.querySelector(`#${id}`).scrollIntoView({ behavior: "smooth" });
+        }
+        window.addEventListener("scroll", function () {
+            var scrollPosition = window.scrollY;
+            if (scrollPosition > 100) {
+                document.querySelector("nav").classList.add("fixed-top");
+            } else {
+                document.querySelector("nav").classList.remove("fixed-top");
+            }
+        });
+        $(document).ready(function () {
+            $(".owl-carousel").owlCarousel({
+                loop: true,
+                margin: 20,
+                nav: true,
+                responsive: {
+                    0: {
+                        items: 1,
+                    },
+                    600: {
+                        items: 2,
+                    },
+                    1000: {
+                        items: 3,
+                    },
+                },
+            });
+        });
+    </script>
+</body>
+
+</html>
